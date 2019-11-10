@@ -9,11 +9,7 @@ int main()
 {
 	Production p;
 
-	int a = 10;
-
-	cout << p.someMethod(a) << endl;
-	assert(p.someMethod(a) == 0);
-	assert(p.someMethod(a) == 1);
+	p.someMethod();
 
 	cin.get();
 }

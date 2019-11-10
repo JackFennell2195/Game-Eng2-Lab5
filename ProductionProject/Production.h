@@ -1,11 +1,9 @@
-#include <vector>
+#include <iostream>
+#include <assert.h>
 
 class Production{
 public:
 	
-	int someMethod(int a);
-	int checkNoOfNumbers(int a);
-	int checkNumbersBetween(int a);
-	int checkForDuplicates(int a);
+	void someMethod();
 
 };
